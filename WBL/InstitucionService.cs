@@ -107,7 +107,7 @@ namespace WBL
             {
                 var result = sql.ExecuteAsync("dbo.InstitucionEliminar", new
                 {
-                    IdInstitucion1 = entity.Id_Institucion
+                    entity.Id_Institucion
                 });
                 return await result;
             }
