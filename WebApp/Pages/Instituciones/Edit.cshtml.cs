@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using WBL;
 
+
 namespace WebApp.Pages.Institucion
 {
     public class EditModel : PageModel
@@ -16,7 +17,6 @@ namespace WebApp.Pages.Institucion
         {
             this.institucion = institucion;
         }
-
         public void OnGet()
         {
         }

@@ -22,7 +22,7 @@
             });
 
     }
-
+    
     /*Datable*/
     $("#GridView").DataTable();
 
