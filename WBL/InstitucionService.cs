@@ -48,7 +48,7 @@ namespace WBL
         {
             try
             {
-                var result = sql.QueryFirstAstnc<InstitucionEntity>("dbo.InstitucionObtener", new { entity.IdProveedor });
+                var result = sql.QueryFirstAstnc<InstitucionEntity>("dbo.InstitucionObtener", new { entity.Id_Institucion });
                 return await result;
             }
             catch (Exception)
